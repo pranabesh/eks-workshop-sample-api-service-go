@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World - Manual Approval"}
+		res := &response{Message: "Hello World - removing manual approval"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
